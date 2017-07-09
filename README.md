@@ -2,6 +2,7 @@
 Return simple weather information from wunderground
 
 It requires python3 and supervisor on your system.
+You will also need an api key from [wunderground](https://www.wunderground.com/)
 
 The final result is something like this
 
