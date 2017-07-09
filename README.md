@@ -16,3 +16,5 @@ The final result is something like this
 * Put the file **wunderground-slash-command.py** in the root folder of the project (in this case **/srv/mattermost**)
 * Restart supervisor
 * Configure the slash command in your mattermost team. Follow [the official doc](https://docs.mattermost.com/developer/slash-commands.html) to know how.
+* If everything is right you're able to issue the new command and get weather info.
+* In case of errors check out the file **/var/log/slashcommands** or stop supervisor and run manually **/srv/mattermost/venv/bin/python3 /srv/mattermost/wunderground-slash-command.py** to get the output on the console
